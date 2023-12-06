@@ -1,0 +1,70 @@
+# Gradio YOLOv5 Det
+# 创建人：曾逸夫
+# 项目地址：https://gitee.com/CV_Lab/gradio_yolov5_det
+
+# 图片格式
+*.jpg
+*.jpeg
+*.png
+*.svg
+*.gif
+
+# 视频格式
+*.mp4
+*.avi
+.ipynb_checkpoints
+/__pycache__
+*/__pycache__
+
+# 日志格式
+*.log
+*.data
+*.txt
+
+# 生成文件
+*.pdf
+*.xlsx
+*.csv
+
+# 参数文件
+*.yaml
+*.json
+
+# 压缩文件格式
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 字体格式
+*.ttc
+*.ttf
+*.otf
+*.pkl
+
+# 模型文件
+*.pt
+*.db
+
+.DS_Store
+
+/flagged
+/run
+/yolov5
+!requirements.txt
+!cls_name/*
+!model_config/*
+!img_examples/*
+!img_examples/img_clas/*
+!video_examples/*
+
+!requirements.txt
+!.pre-commit-config.yaml
+!/icon/gradio_yolov8_det_logo.png
+
+app.py
+test.py
+test*.py
+
+model_download.py
+docker_command.md

@@ -1,0 +1,45 @@
+# 图片格式
+*.jpg
+*.jpeg
+*.png
+*.svg
+*.gif
+
+# 视频格式
+*.mp4
+*.avi
+.ipynb_checkpoints
+__pycache__
+/utils/__pycache__
+
+# 日志格式
+*.log
+*.csv
+*.data
+*.csv
+
+# 参数文件
+*.yaml
+*.json
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+*.pt
+
+# 字体格式
+/fonts
+*.ttc
+*.ttf
+*.otf
+
+test.py
+test*.py
+v*.md
+
+docker_command.md
+/run
+/flagged
